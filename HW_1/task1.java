@@ -26,13 +26,11 @@ public class task1 {
     }
 
     public static double nod(double a, double b) {
-        for (int i = (int) (a + b); i > 0; i--) {
-            if (a % i == 0 && b % i == 0) {
-                return i;
-            }
+        while (b != 0) {
+            double del = b;
+            b = a % b;
+            a = del;
         }
-        return 1;
+        return a;
     }
-
-
 }

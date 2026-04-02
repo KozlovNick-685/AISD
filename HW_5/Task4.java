@@ -5,8 +5,8 @@ import java.util.List;
 
 public class Task4 {
     public static void main(String[] args) {
-        int[] array1 = new int[]{1, 2, 1, 5, 3, 2};
-        func(array1);
+        int[] arr = new int[]{1, 2, 1, 5, 3, 2};
+        func(arr);
 
     }
     public static void func(int[] arr) {

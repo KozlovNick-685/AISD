@@ -1,7 +1,7 @@
 public class Task3 {
     public static void main(String[] args) {
-        int[] array1 = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9};
-        func(array1,16);
+        int[] arr = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9};
+        func(arr, 16);
 
     }
     public static void func(int[] data, int need) {
